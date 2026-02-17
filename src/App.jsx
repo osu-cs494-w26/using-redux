@@ -27,7 +27,7 @@ export default function App() {
     )
     return (
         <div className="m-2">
-            <h1>Todos ({activeTodoCount} active)</h1>
+            <h1 className="text-3xl font-semibold">Todos ({activeTodoCount} active)</h1>
             <VisibilityFilterButtons />
             <AddTodo />
             <TodoList todos={todos} />
